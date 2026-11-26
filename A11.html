@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poland Logistic &#8211; Anastasiia Biruk | Transport busami do 3,5 t</title>
+<meta name="description" content="Poland Logistic Anastasiia Biruk &#8211; transport krajowy i mi&#281;dzynarodowy busami do 3,5 t z plandek&#261;, transport ekspresowy, przeprowadzki. Pracujemy 24/7.">
+<style>
+:root{--black:#0e0c0b;--ink:#1a1715;--gold:#c9a45c;--gold2:#e6cf9a;--beige:#efe4d3;--pink:#f3d6d6;--text:#f4efe8;--muted:#b9ada0;}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--text);font-family:"Helvetica Neue",Arial,"Liberation Sans",sans-serif;line-height:1.6}
+a{color:inherit}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+.script{font-family:"Snell Roundhand","Segoe Script","Brush Script MT",cursive;font-style:italic;font-weight:400}
+.serif{font-family:Georgia,"DejaVu Serif",serif}
+/* nag\142 \f3 wek */
+header{position:sticky;top:0;z-index:20;background:rgba(14,12,11,.92);border-bottom:1px solid rgba(201,164,92,.25);backdrop-filter:blur(6px)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px;max-width:1140px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo svg{width:48px;height:48px;flex:none}
+.logo .bar{width:1px;height:34px;background:var(--text);opacity:.7}
+.logo b{display:block;font-size:20px;letter-spacing:.3px;line-height:1.1}
+.logo span{display:block;font-size:15px;color:var(--gold2);line-height:1.1}
+.menu{display:flex;gap:24px;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+.menu a{text-decoration:none;color:var(--muted)}
+.menu a:hover{color:var(--gold2)}
+.call{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:var(--black);text-decoration:none;font-weight:700;padding:10px 18px;border-radius:40px;white-space:nowrap}
+.call:hover{background:var(--gold2)}
+/* hero z busami */
+.hero{position:relative;overflow:hidden;min-height:620px;display:flex;align-items:center;background:radial-gradient(ellipse at 70% 30%,#2a221b 0%,var(--black) 65%)}
+.road{position:absolute;left:0;right:0;height:2px;background:repeating-linear-gradient(90deg,rgba(201,164,92,.35) 0 40px,transparent 40px 80px)}
+.lane{position:absolute;left:0;right:0;height:140px;pointer-events:none}
+.lane1{bottom:40px}.lane2{bottom:172px;height:60px;opacity:.35}.lane3{top:40px;opacity:.18}
+.road1{bottom:38px}.road2{bottom:170px;opacity:.5}
+.bus{position:absolute;bottom:0;width:250px;animation:drive linear infinite}
+.lane1 .bus{animation-duration:16s}
+.lane2 .bus{width:125px;animation-duration:26s}
+.lane3 .bus{width:125px;animation-duration:32s}
+.lane1 .bus.b2{animation-delay:-8s}
+.lane2 .bus.b2{animation-delay:-12s}
+@keyframes drive{from{left:-360px}to{left:100%}}
+.wheel{transform-box:fill-box;transform-origin:center;animation:spin .6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hero .wrap{position:relative;z-index:2;padding-top:70px;padding-bottom:230px}
+.kicker{color:var(--gold);letter-spacing:.25em;text-transform:uppercase;font-size:13px;font-weight:700}
+h1{font-size:clamp(36px,6vw,66px);line-height:1.08;margin:14px 0 6px;font-weight:700}
+h1 em{font-style:normal;color:var(--gold2)}
+.hero .sub{font-size:clamp(17px,2.2vw,21px);color:var(--muted);max-width:620px;margin:16px 0 30px}
+.cta{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-block;padding:15px 26px;border-radius:40px;font-weight:700;text-decoration:none;font-size:17px}
+.btn.gold{background:var(--gold);color:var(--black)}
+.btn.line{border:1.5px solid var(--gold);color:var(--gold2)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.chip{border:1px solid rgba(239,228,211,.25);padding:6px 14px;border-radius:30px;font-size:14px;color:var(--beige)}
+/* sekcje */
+section{padding:80px 0}
+.sec-title{text-align:center;margin-bottom:44px}
+.sec-title .kicker{display:block}
+h2{font-size:clamp(28px,4vw,42px);line-height:1.15;margin-top:8px}
+.light{background:var(--beige);color:var(--ink)}
+.light .kicker{color:#9a7a3a}
+.grid{display:grid;gap:22px}
+.g4{grid-template-columns:repeat(4,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.card{background:#fff;border-radius:16px;padding:28px 24px;border-top:4px solid var(--gold);box-shadow:0 10px 30px rgba(60,40,20,.08)}
+.card h3{font-size:20px;margin:14px 0 8px}
+.card p{color:#5a5048;font-size:15.5px}
+.ico{width:52px;height:52px;border-radius:50%;background:var(--pink);display:grid;place-items:center}
+.ico svg{width:28px;height:28px}
+/* trasy */
+.routes{background:linear-gradient(180deg,var(--black),#1b1612)}
+.map{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.country{border:1px solid rgba(201,164,92,.35);border-radius:14px;padding:18px;display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.02)}
+.code{font-weight:800;font-size:22px;color:var(--black);background:var(--gold);width:52px;height:52px;border-radius:50%;display:grid;place-items:center;flex:none}
+.country b{display:block;font-size:17px}
+.country small{color:var(--muted)}
+.country.pl .code{background:var(--pink)}
+.note{text-align:center;color:var(--muted);margin-top:26px}
+/* flota */
+.fleet{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
+.fleet ul{list-style:none;margin-top:20px}
+.fleet li{padding:12px 0;border-bottom:1px solid rgba(26,23,21,.12);display:flex;gap:12px;font-size:17px}
+.fleet li:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--gold);margin-top:9px;flex:none}
+.pal{display:flex;gap:18px;justify-content:center;flex-wrap:wrap}
+.pal div{background:var(--ink);color:var(--text);border-radius:18px;padding:26px 30px;text-align:center;min-width:150px}
+.pal strong{display:block;font-size:52px;line-height:1;color:var(--gold2)}
+/* dla kogo */
+.who .card{background:#221d19;color:var(--text);box-shadow:none;border-top-color:var(--pink)}
+.who .card p{color:var(--muted)}
+/* formularz */
+.quote{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;align-items:start}
+form{background:#fff;border-radius:18px;padding:28px;box-shadow:0 14px 40px rgba(60,40,20,.12)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-size:13px;font-weight:700;color:#6b5d50;margin:12px 0 5px;text-transform:uppercase;letter-spacing:.05em}
+input,select,textarea{width:100%;padding:12px 14px;border:1.5px solid #e2d6c4;border-radius:10px;font:inherit;font-size:16px;background:#fcfaf6;color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold)}
+textarea{min-height:90px;resize:vertical}
+form button{margin-top:18px;width:100%;border:0;cursor:pointer;background:var(--ink);color:var(--gold2);font-size:17px;font-weight:700;padding:16px;border-radius:40px}
+form button:hover{background:#000}
+.small{font-size:13px;color:#7b6e61;margin-top:10px}
+.contact-box{background:var(--ink);color:var(--text);border-radius:18px;padding:30px}
+.contact-box a.big{display:block;font-size:28px;font-weight:800;color:var(--gold2);text-decoration:none;margin:6px 0 16px;word-break:break-all}
+.todo{display:inline-block;background:#fff3b0;color:#5a4300;border:1px dashed #b08a00;font-size:12px;font-weight:700;padding:2px 8px;border-radius:6px;letter-spacing:.03em;vertical-align:middle}
+footer{background:#080706;color:var(--muted);padding:40px 0 100px;font-size:14px}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center}
+.fab{display:none}
+@media (max-width:900px){
+  .menu{display:none}
+  .g4,.map{grid-template-columns:repeat(2,1fr)}
+  .g3{grid-template-columns:1fr}
+  .fleet,.quote{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .nav{padding:10px 16px}
+  .wrap{padding:0 16px}
+  .logo svg{width:36px;height:36px}
+  .logo b{font-size:17px}.logo span{font-size:13px}
+  .call .txt{display:none}
+  .call{padding:10px 12px}
+  .hero{min-height:0}
+  .hero .wrap{padding-top:44px;padding-bottom:200px}
+  .lane1 .bus{width:185px}
+  .lane3,.lane2,.road2{display:none}
+  .g4,.map{grid-template-columns:1fr}
+  .row{grid-template-columns:1fr}
+  section{padding:56px 0}
+  .btn{width:100%;text-align:center}
+  .fab.show{display:flex}
+  .fab{position:fixed;left:16px;right:16px;bottom:14px;z-index:30;justify-content:center;gap:10px;background:var(--gold);color:var(--black);font-weight:800;text-decoration:none;padding:15px;border-radius:40px;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+  .contact-box a.big{font-size:22px}
+}
+@media print{header{position:static}.fab{display:none!important}.bus,.wheel{animation:none}}
+
+/* jezyki */
+.langs{display:flex;gap:4px}
+.langs button{background:transparent;border:1px solid rgba(201,164,92,.45);color:var(--muted);font:inherit;font-size:12px;font-weight:700;letter-spacing:.06em;padding:5px 8px;border-radius:20px;cursor:pointer}
+.langs button.on{background:var(--gold);color:var(--black);border-color:var(--gold)}
+.right{display:flex;align-items:center;gap:12px}
+.btn.wa{background:#25d366;color:#fff}
+.wa-ico{width:20px;height:20px;vertical-align:-4px;margin-right:6px}
+.chip.gold{border-color:var(--gold);color:var(--gold2)}
+/* zaufanie */
+.trust{background:var(--pink);color:var(--ink)}
+.trust .kicker{color:#8a5a5a}
+.trust .card{border-top-color:var(--ink)}
+.trust .ico{background:var(--beige)}
+.big-num{display:block;font-size:26px;font-weight:800;color:#9a7a3a;margin-top:6px}
+.wa-float{position:fixed;right:22px;bottom:22px;z-index:31;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+.wa-float svg{width:32px;height:32px}
+.hours{display:inline-block;margin-top:4px;color:var(--gold2);font-weight:700}
+@media (max-width:900px){.langs button{padding:4px 6px}}
+@media (max-width:560px){
+  .nav{flex-wrap:wrap;row-gap:8px}
+  .langs{order:3;width:100%;justify-content:center}
+  .langs button{flex:1;max-width:70px}
+  .fab{right:86px}
+  .wa-float{right:16px;bottom:14px;width:54px;height:54px}
+}
+@media print{.wa-float{display:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="busSym" viewBox="0 0 340 140"><ellipse cx="170" cy="126" rx="160" ry="4" fill="#000" opacity=".35"/><rect x="14" y="100" width="290" height="7" rx="2" fill="#151312"/><path d="M10 98 V22 Q10 12 20 12 H216 V98 Z" fill="#f1efea" stroke="#bdb6ab" stroke-width="1.5"/><rect x="20" y="13" width="196" height="4" fill="#e2ddd4" opacity=".9"/><line x1="36" y1="20" x2="36" y2="96" stroke="#d6d0c6" stroke-width="1.6"/><line x1="62" y1="20" x2="62" y2="96" stroke="#d6d0c6" stroke-width="1.6"/><line x1="88" y1="20" x2="88" y2="96" stroke="#d6d0c6" stroke-width="1.6"/><line x1="114" y1="20" x2="114" y2="96" stroke="#d6d0c6" stroke-width="1.6"/><line x1="140" y1="20" x2="140" y2="96" stroke="#d6d0c6" stroke-width="1.6"/><line x1="166" y1="20" x2="166" y2="96" stroke="#d6d0c6" stroke-width="1.6"/><line x1="192" y1="20" x2="192" y2="96" stroke="#d6d0c6" stroke-width="1.6"/><line x1="10" y1="88" x2="216" y2="88" stroke="#d6d0c6" stroke-width="1.4"/><rect x="21" y="90" width="4" height="6" rx="1" fill="#8a8178"/><rect x="47" y="90" width="4" height="6" rx="1" fill="#8a8178"/><rect x="73" y="90" width="4" height="6" rx="1" fill="#8a8178"/><rect x="99" y="90" width="4" height="6" rx="1" fill="#8a8178"/><rect x="125" y="90" width="4" height="6" rx="1" fill="#8a8178"/><rect x="151" y="90" width="4" height="6" rx="1" fill="#8a8178"/><rect x="177" y="90" width="4" height="6" rx="1" fill="#8a8178"/><rect x="203" y="90" width="4" height="6" rx="1" fill="#8a8178"/><rect x="10" y="96" width="206" height="4" fill="#cfc9bf"/><text x="113" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="19" fill="#1a1715">Poland Logistic</text><text x="113" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5" fill="#9a7a3a">TRANSPORT DO 3,5 T</text><path d="M214 11 H254 Q273 11 278 27 L280 39 Q281 49 270 49 H214 Z" fill="#fbfaf7" stroke="#bdb6ab" stroke-width="1.3"/><path d="M256 12 Q271 13 276 26 L278.5 37 H268 L263 21 Q261 15 256 12 Z" fill="#1a1715"/><rect x="214" y="41" width="66" height="3.2" fill="#1a1715"/><path d="M222 16 H250 L247 21 H222 Z" fill="#1a1715" opacity=".85"/><path d="M216 49 H266 Q270 49 273 53 L290 76 Q310 79 316 85 Q320 90 320 96 V104 H216 Z" fill="#fbfaf7" stroke="#bdb6ab" stroke-width="1.6"/><path d="M232 55 H264 Q267 55 269 58 L284 76 H232 Z" fill="#3f4a55"/><path d="M269 56 L287 77 L291 77 L273 54 Z" fill="#5d6b78"/><line x1="230" y1="54" x2="230" y2="100" stroke="#c9c2b6" stroke-width="1"/><line x1="278" y1="79" x2="278" y2="100" stroke="#c9c2b6" stroke-width="1"/><rect x="262" y="82" width="8" height="2.5" rx="1" fill="#8d9296"/><path d="M280 57 H286 Q288 57 288 59 V74 Q288 76 286 76 H280 Z" fill="#141313"/><rect x="276" y="70" width="6" height="2" fill="#141313"/><path d="M216 95 H296 Q300 86 310 85 L317 87 Q321 91 321 97 V108 H216 Z" fill="#232120"/><line x1="300" y1="99" x2="320" y2="99" stroke="#c7cbce" stroke-width="1.4"/><line x1="302" y1="103" x2="320" y2="103" stroke="#9fa4a8" stroke-width="1"/><path d="M300 81 L317 85.5 L318.5 90 L303 87.5 Z" fill="#eef2f4" stroke="#2a2a2a" stroke-width=".8"/><rect x="313" y="101" width="7" height="3" rx="1" fill="#d9822b"/><path d="M250 106 A22 22 0 0 1 294 106" fill="none" stroke="#1a1817" stroke-width="5"/><path d="M252 106 A20 20 0 0 1 292 106 Z" fill="#0f0e0d"/><path d="M62 100 Q82 86 102 100 Z" fill="#1a1715"/><rect x="6" y="84" width="5" height="10" rx="1" fill="#c0392b"/><rect x="8" y="106" width="26" height="4" rx="1" fill="#3a3430"/><rect x="104" y="102" width="4" height="18" fill="#1a1715"/><g class="wheel"><circle cx="82" cy="110" r="15" fill="#0d0c0b"/><circle cx="82" cy="110" r="13" fill="none" stroke="#2c2724" stroke-width="2" stroke-dasharray="3 2"/><circle cx="82" cy="110" r="9" fill="#bfc3c6"/><circle cx="82" cy="110" r="7.5" fill="none" stroke="#7d8286" stroke-width="1"/><circle cx="82" cy="104.5" r="1.2" fill="#2a2522"/><circle cx="87.2" cy="108.3" r="1.2" fill="#2a2522"/><circle cx="85.2" cy="114.5" r="1.2" fill="#2a2522"/><circle cx="78.8" cy="114.5" r="1.2" fill="#2a2522"/><circle cx="76.8" cy="108.3" r="1.2" fill="#2a2522"/><circle cx="82" cy="110" r="2.6" fill="#3a3d40"/></g><g class="wheel"><circle cx="272" cy="110" r="15" fill="#0d0c0b"/><circle cx="272" cy="110" r="13" fill="none" stroke="#2c2724" stroke-width="2" stroke-dasharray="3 2"/><circle cx="272" cy="110" r="9" fill="#bfc3c6"/><circle cx="272" cy="110" r="7.5" fill="none" stroke="#7d8286" stroke-width="1"/><circle cx="272" cy="104.5" r="1.2" fill="#2a2522"/><circle cx="277.2" cy="108.3" r="1.2" fill="#2a2522"/><circle cx="275.2" cy="114.5" r="1.2" fill="#2a2522"/><circle cx="268.8" cy="114.5" r="1.2" fill="#2a2522"/><circle cx="266.8" cy="108.3" r="1.2" fill="#2a2522"/><circle cx="272" cy="110" r="2.6" fill="#3a3d40"/></g></symbol>
+    <symbol id="logoSym" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.1"/><text x="23.5" y="30.5" text-anchor="middle" font-family="'Snell Roundhand','Segoe Script','Brush Script MT','Apple Chancery',cursive" font-style="italic" font-size="19" fill="currentColor">PL</text></symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="nav">
+    <a class="logo" href="#top" aria-label="Poland Logistic">
+      <svg style="color:#f4efe8"><use href="#logoSym"/></svg>
+      <i class="bar"></i>
+      <div><b>Poland Logistic</b><span class="script">Anastasiia Biruk</span></div>
+    </a>
+    <nav class="menu">
+      <a href="#uslugi" data-t="nav_services">Us&#322;ugi</a><a href="#dlaczego" data-t="nav_why">Dlaczego my</a><a href="#trasy" data-t="nav_routes">Trasy</a><a href="#flota" data-t="nav_fleet">Flota</a><a href="#wycena" data-t="nav_quote">Wycena</a>
+    </nav>
+    <div class="langs" role="group" aria-label="J&#281;zyk / Language">
+      <button type="button" data-lang="pl" class="on">PL</button><button type="button" data-lang="en">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="uk">UA</button>
+    </div>
+    <a class="call" href="tel:+48788294893">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+      <span class="txt" data-t="call">Zadzwo&#324;</span>
+    </a>
+  </div>
+</header>
+
+<div class="hero" id="top">
+  <div class="lane lane3"><div class="bus"><svg viewBox="0 0 340 140"><use href="#busSym"/></svg></div></div>
+  <div class="road road2"></div>
+  <div class="lane lane2"><div class="bus"><svg viewBox="0 0 340 140"><use href="#busSym"/></svg></div><div class="bus b2"><svg viewBox="0 0 340 140"><use href="#busSym"/></svg></div></div>
+  <div class="road road1"></div>
+  <div class="lane lane1"><div class="bus"><svg viewBox="0 0 340 140"><use href="#busSym"/></svg></div><div class="bus b2"><svg viewBox="0 0 340 140"><use href="#busSym"/></svg></div></div>
+
+  <div class="wrap">
+    <span class="kicker" data-t="hero_k">Us&#322;ugi transportowe i przeprowadzkowe</span>
+    <h1 data-t="hero_h">Transport busami do 3,5&nbsp;t<br><em>w Polsce i w Europie</em></h1>
+    <p class="sub" data-t="hero_p">Transport krajowy, mi&#281;dzynarodowy i ekspresowy oraz przeprowadzki. Dla spedycji, firm i os&#243;b prywatnych.</p>
+    <div class="cta">
+      <a class="btn gold" href="tel:+48788294893" data-t="cta_call">Zadzwo&#324;: +48 788 294 893</a>
+      <a class="btn wa" href="https://wa.me/48609696782" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 32 32" fill="currentColor"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8.9 3.8.8a3.2 3.2 0 0 0 2.1-1.5 2.6 2.6 0 0 0 .2-1.5c-.1-.1-.3-.2-.7-.3z"/></svg>WhatsApp +48 609 696 782</a>
+      <a class="btn line" href="#wycena" data-t="cta_quote">Bezp&#322;atna wycena</a>
+    </div>
+    <div class="chips">
+      <span class="chip gold" data-t="b_247">Pracujemy 24/7</span><span class="chip gold" data-t="b_lic">Licencja mi&#281;dzynarodowa</span><span class="chip gold" data-t="b_ocp">Ubezpieczenie OCP 150 000 EUR</span><span class="chip gold" data-t="b_tacho">Auta z tachografami</span>
+    </div>
+    <div class="chips" style="margin-top:12px">
+      <span class="chip">NL</span><span class="chip">BE</span><span class="chip">DE</span><span class="chip">LU</span><span class="chip">DK</span><span class="chip">AT</span><span class="chip">CZ</span><span class="chip">IT</span><span class="chip" data-t="chip_pl">+ ca&#322;a Polska</span>
+    </div>
+  </div>
+</div>
+
+<section class="light" id="uslugi">
+  <div class="wrap">
+    <div class="sec-title"><span class="kicker" data-t="srv_k">Zakres us&#322;ug</span><h2 class="serif" data-t="srv_h">Czym si&#281; zajmujemy</h2></div>
+    <div class="grid g4">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#1a1715" stroke-width="1.8"><path d="M3 11l9-7 9 7v9H3z"/><path d="M9 20v-6h6v6"/></svg></div><h3 data-t="s1_h">Przeprowadzki</h3><p data-t="s1_p">Przew&#243;z mebli i rzeczy osobistych &#8211; mieszkania, domy, biura.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#1a1715" stroke-width="1.8"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg></div><h3 data-t="s2_h">Transport ekspresowy</h3><p data-t="s2_p">Pilne przesy&#322;ki i &#322;adunki dowo&#380;one bez zb&#281;dnych prze&#322;adunk&#243;w.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#1a1715" stroke-width="1.8"><path d="M4 20V8l8-4 8 4v12"/><path d="M8 20v-8h8v8"/></svg></div><h3 data-t="s3_h">Transport krajowy</h3><p data-t="s3_p">Przewozy na terenie ca&#322;ej Polski busami do 3,5 t.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#1a1715" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg></div><h3 data-t="s4_h">Transport w UE</h3><p data-t="s4_p">Holandia, Belgia, Niemcy, Luksemburg, Dania, Austria, Czechy, W&#322;ochy.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="trust" id="dlaczego">
+  <div class="wrap">
+    <div class="sec-title"><span class="kicker" data-t="why_k">Bezpiecze&#324;stwo i dost&#281;pno&#347;&#263;</span><h2 class="serif" data-t="why_h">Dlaczego warto z nami</h2></div>
+    <div class="grid g4">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#1a1715" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h4"/></svg></div><h3 data-t="w1_h">Licencja mi&#281;dzynarodowa</h3><p data-t="w1_p">Firma posiada licencj&#281; na mi&#281;dzynarodowy transport drogowy.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#1a1715" stroke-width="1.8"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div><h3 data-t="w2_h">Ubezpieczenie OCP</h3><p data-t="w2_p">Ubezpieczenie OC przewo&#378;nika na kwot&#281;:</p><span class="big-num">150 000 EUR</span></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#1a1715" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 12l4-4M7 12h1M16 12h1M12 7v1"/></svg></div><h3 data-t="w3_h">Tachografy</h3><p data-t="w3_p">Nasze auta posiadaj&#261; tachografy.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#1a1715" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div><h3 data-t="w4_h">Pracujemy 24/7</h3><p data-t="w4_p">Jeste&#347;my do dyspozycji 24 godziny na dob&#281;, 7 dni w tygodniu.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="routes" id="trasy">
+  <div class="wrap">
+    <div class="sec-title"><span class="kicker" data-t="rt_k">Trasy i kraje</span><h2 class="serif" data-t="rt_h">Gdzie je&#378;dzimy</h2></div>
+    <div class="map">
+      <div class="country pl"><span class="code">PL</span><div><b data-t="c_pl">Polska</b><small data-t="c_pl_s">transport krajowy</small></div></div>
+      <div class="country"><span class="code">NL</span><div><b data-t="c_nl">Holandia</b><small data-t="c_nl_s">Niderlandy</small></div></div>
+      <div class="country"><span class="code">BE</span><div><b data-t="c_be">Belgia</b></div></div>
+      <div class="country"><span class="code">DE</span><div><b data-t="c_de">Niemcy</b></div></div>
+      <div class="country"><span class="code">LU</span><div><b data-t="c_lu">Luksemburg</b></div></div>
+      <div class="country"><span class="code">DK</span><div><b data-t="c_dk">Dania</b></div></div>
+      <div class="country"><span class="code">AT</span><div><b data-t="c_at">Austria</b></div></div>
+      <div class="country"><span class="code">CZ</span><div><b data-t="c_cz">Czechy</b></div></div>
+      <div class="country"><span class="code">IT</span><div><b data-t="c_it">W&#322;ochy</b></div></div>
+    </div>
+    <p class="note" data-t="rt_note">Trasa spoza listy? Zadzwo&#324; lub wy&#347;lij zapytanie &#8211; sprawdzimy mo&#380;liwo&#347;&#263; przewozu.</p>
+  </div>
+</section>
+
+<section class="light" id="flota">
+  <div class="wrap fleet">
+    <div>
+      <span class="kicker" data-t="fl_k">Flota</span>
+      <h2 class="serif" data-t="fl_h">Busy do 3,5 t z plandek&#261;</h2>
+      <ul>
+        <li data-t="fl_1">Pojazdy o dopuszczalnej masie ca&#322;kowitej do 3,5 t</li>
+        <li data-t="fl_2">Zabudowa z plandek&#261;</li>
+        <li data-t="fl_3">Auta mieszcz&#261;ce 10 lub 8 europalet</li>
+        <li data-t="fl_4">Auta wyposa&#380;one w tachografy</li>
+      </ul>
+      <p style="margin-top:16px"><span class="todo">[DO UZUPE&#321;NIENIA] zdj&#281;cia aut</span></p>
+    </div>
+    <div class="pal">
+      <div><strong>10</strong><span data-t="pal_u">europalet</span></div>
+      <div><strong>8</strong><span data-t="pal_u">europalet</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="routes who">
+  <div class="wrap">
+    <div class="sec-title"><span class="kicker" data-t="who_k">Dla kogo</span><h2 class="serif" data-t="who_h">Pracujemy dla</h2></div>
+    <div class="grid g3">
+      <div class="card"><h3 data-t="who1_h">Spedycji</h3><p data-t="who1_p">&#321;adunki do 3,5 t na trasach krajowych i w Unii Europejskiej.</p></div>
+      <div class="card"><h3 data-t="who2_h">Firm</h3><p data-t="who2_p">Transport towar&#243;w i pilne dostawy ekspresowe.</p></div>
+      <div class="card"><h3 data-t="who3_h">Os&#243;b prywatnych</h3><p data-t="who3_p">Przeprowadzki oraz przew&#243;z rzeczy w kraju i za granic&#261;.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="light" id="wycena">
+  <div class="wrap quote">
+    <div>
+      <span class="kicker" data-t="q_k">Wycena</span>
+      <h2 class="serif" data-t="q_h">Zapytaj o cen&#281; przewozu</h2>
+      <p style="margin:14px 0 22px;color:#5a5048" data-t="q_p">Wype&#322;nij formularz &#8211; po klikni&#281;ciu otworzy si&#281; Tw&#243;j program pocztowy z gotow&#261; wiadomo&#347;ci&#261;. Najszybciej: zadzwo&#324; lub napisz na WhatsApp.</p>
+      <div class="contact-box">
+        <small data-t="cb_tel">Telefon</small>
+        <a class="big" href="tel:+48788294893">+48 788 294 893</a>
+        <small>WhatsApp</small>
+        <a class="big" style="font-size:22px;color:#4fe08a" href="https://wa.me/48609696782" target="_blank" rel="noopener">+48 609 696 782</a>
+        <small data-t="cb_mail">E-mail</small>
+        <a class="big" style="font-size:20px" href="mailto:biuro@poland-logistic.pl">biuro@poland-logistic.pl</a>
+        <small data-t="cb_hours">Godziny pracy</small>
+        <p class="hours" data-t="cb_hours_v">24/7 &#8211; ca&#322;&#261; dob&#281;, 7 dni w tygodniu</p>
+        <p style="margin-top:14px"><small data-t="cb_addr">Adres</small></p>
+        <p style="margin-top:6px">ul. Lemierzycka 11<br>66-437 Ownice</p>
+      </div>
+    </div>
+    <form id="qf">
+      <div class="row">
+        <div><label for="f1" data-t="f_from">Sk&#261;d</label><input id="f1" name="skad" data-tp="ph_from" placeholder="np. Pozna&#324;" required></div>
+        <div><label for="f2" data-t="f_to">Dok&#261;d</label><input id="f2" name="dokad" data-tp="ph_to" placeholder="np. Rotterdam" required></div>
+      </div>
+      <div class="row">
+        <div><label for="f3" data-t="f_srv">Rodzaj us&#322;ugi</label><select id="f3" name="usluga"><option data-t="o1">Transport krajowy</option><option data-t="o2">Transport mi&#281;dzynarodowy (UE)</option><option data-t="o3">Transport ekspresowy</option><option data-t="o4">Przeprowadzka</option></select></div>
+        <div><label for="f4" data-t="f_date">Termin</label><input id="f4" name="termin" type="date"></div>
+      </div>
+      <label for="f5" data-t="f_load">&#321;adunek (co, ile palet, waga)</label>
+      <textarea id="f5" name="ladunek" data-tp="ph_load" placeholder="np. 6 europalet, ok. 900 kg"></textarea>
+      <div class="row">
+        <div><label for="f6" data-t="f_who">Imi&#281; / firma</label><input id="f6" name="kto"></div>
+        <div><label for="f7" data-t="f_tel">Telefon</label><input id="f7" name="tel" type="tel"></div>
+      </div>
+      <button type="submit" data-t="f_btn">Wy&#347;lij zapytanie o wycen&#281;</button>
+      <p class="small" data-t="f_small">Formularz nie zapisuje danych na stronie &#8211; przygotowuje wiadomo&#347;&#263; e-mail w Twoim programie pocztowym.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot">
+    <div class="logo"><svg style="color:#f4efe8"><use href="#logoSym"/></svg><i class="bar"></i><div><b style="color:#f4efe8">Poland Logistic</b><span class="script">Anastasiia Biruk</span></div></div>
+    <div><span data-t="ft_nip">NIP</span>: 5993279486<br>tel. <a href="tel:+48788294893">+48 788 294 893</a> &#183; WhatsApp <a href="https://wa.me/48609696782" target="_blank" rel="noopener">+48 609 696 782</a><br><a href="mailto:biuro@poland-logistic.pl">biuro@poland-logistic.pl</a> &#183; <span data-t="ft_hours">Pracujemy 24/7</span></div>
+    <div>&#169; Poland Logistic Anastasiia Biruk</div>
+  </div>
+</footer>
+
+<a class="fab" href="tel:+48788294893" data-t="fab">&#9742; Zadzwo&#324; teraz</a>
+<a class="wa-float" href="https://wa.me/48609696782" target="_blank" rel="noopener" aria-label="WhatsApp +48 609 696 782"><svg viewBox="0 0 32 32" fill="#fff"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8.9 3.8.8a3.2 3.2 0 0 0 2.1-1.5 2.6 2.6 0 0 0 .2-1.5c-.1-.1-.3-.2-.7-.3z"/></svg></a>
+
+<script>
+var T={"nav_services": ["Us\u0142ugi", "Services", "Leistungen", "\u041f\u043e\u0441\u043b\u0443\u0433\u0438"], "nav_why": ["Dlaczego my", "Why us", "Warum wir", "\u0427\u043e\u043c\u0443 \u043c\u0438"], "nav_routes": ["Trasy", "Routes", "Routen", "\u041c\u0430\u0440\u0448\u0440\u0443\u0442\u0438"], "nav_fleet": ["Flota", "Fleet", "Flotte", "\u0410\u0432\u0442\u043e\u043f\u0430\u0440\u043a"], "nav_quote": ["Wycena", "Quote", "Angebot", "\u0412\u0430\u0440\u0442\u0456\u0441\u0442\u044c"], "call": ["Zadzwo\u0144", "Call", "Anrufen", "\u041f\u043e\u0434\u0437\u0432\u043e\u043d\u0438\u0442\u0438"], "hero_k": ["Us\u0142ugi transportowe i przeprowadzkowe", "Transport and removal services", "Transport- und Umzugsdienstleistungen", "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u0456 \u043f\u043e\u0441\u043b\u0443\u0433\u0438 \u0442\u0430 \u043f\u0435\u0440\u0435\u0457\u0437\u0434\u0438"], "hero_h": ["Transport busami do 3,5&nbsp;t<br><em>w Polsce i w Europie</em>", "Transport by vans up to 3.5&nbsp;t<br><em>in Poland and across Europe</em>", "Transporte mit Transportern bis 3,5&nbsp;t<br><em>in Polen und Europa</em>", "\u041f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f \u0431\u0443\u0441\u0430\u043c\u0438 \u0434\u043e 3,5&nbsp;\u0442<br><em>\u043f\u043e \u041f\u043e\u043b\u044c\u0449\u0456 \u0442\u0430 \u0404\u0432\u0440\u043e\u043f\u0456</em>"], "hero_p": ["Transport krajowy, mi\u0119dzynarodowy i ekspresowy oraz przeprowadzki. Dla spedycji, firm i os\u00f3b prywatnych.", "Domestic, international and express transport, plus removals. For forwarders, companies and private customers.", "Inlands-, internationale und Expresstransporte sowie Umz\u00fcge. F\u00fcr Speditionen, Unternehmen und Privatkunden.", "\u0412\u043d\u0443\u0442\u0440\u0456\u0448\u043d\u0456, \u043c\u0456\u0436\u043d\u0430\u0440\u043e\u0434\u043d\u0456 \u0442\u0430 \u0435\u043a\u0441\u043f\u0440\u0435\u0441-\u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f, \u0430 \u0442\u0430\u043a\u043e\u0436 \u043f\u0435\u0440\u0435\u0457\u0437\u0434\u0438. \u0414\u043b\u044f \u0435\u043a\u0441\u043f\u0435\u0434\u0438\u0442\u043e\u0440\u0456\u0432, \u043a\u043e\u043c\u043f\u0430\u043d\u0456\u0439 \u0456 \u043f\u0440\u0438\u0432\u0430\u0442\u043d\u0438\u0445 \u043e\u0441\u0456\u0431."], "cta_call": ["Zadzwo\u0144: +48 788 294 893", "Call: +48 788 294 893", "Anrufen: +48 788 294 893", "\u0422\u0435\u043b\u0435\u0444\u043e\u043d: +48 788 294 893"], "cta_quote": ["Bezp\u0142atna wycena", "Free quote", "Kostenloses Angebot", "\u0411\u0435\u0437\u043a\u043e\u0448\u0442\u043e\u0432\u043d\u0438\u0439 \u0440\u043e\u0437\u0440\u0430\u0445\u0443\u043d\u043e\u043a"], "b_247": ["Pracujemy 24/7", "Available 24/7", "Erreichbar 24/7", "\u041f\u0440\u0430\u0446\u044e\u0454\u043c\u043e 24/7"], "b_ocp": ["Ubezpieczenie OCP 150 000 EUR", "Carrier liability insurance EUR 150,000", "Frachtf\u00fchrerhaftung 150.000 EUR", "\u0421\u0442\u0440\u0430\u0445\u0443\u0432\u0430\u043d\u043d\u044f OCP 150 000 EUR"], "b_lic": ["Licencja mi\u0119dzynarodowa", "International licence", "Internationale Lizenz", "\u041c\u0456\u0436\u043d\u0430\u0440\u043e\u0434\u043d\u0430 \u043b\u0456\u0446\u0435\u043d\u0437\u0456\u044f"], "b_tacho": ["Auta z tachografami", "Vehicles with tachographs", "Fahrzeuge mit Tachographen", "\u0410\u0432\u0442\u043e \u0437 \u0442\u0430\u0445\u043e\u0433\u0440\u0430\u0444\u0430\u043c\u0438"], "chip_pl": ["+ ca\u0142a Polska", "+ all of Poland", "+ ganz Polen", "+ \u0432\u0441\u044f \u041f\u043e\u043b\u044c\u0449\u0430"], "srv_k": ["Zakres us\u0142ug", "Our services", "Leistungsumfang", "\u041d\u0430\u0448\u0456 \u043f\u043e\u0441\u043b\u0443\u0433\u0438"], "srv_h": ["Czym si\u0119 zajmujemy", "What we do", "Was wir machen", "\u0427\u0438\u043c \u043c\u0438 \u0437\u0430\u0439\u043c\u0430\u0454\u043c\u043e\u0441\u044f"], "s1_h": ["Przeprowadzki", "Removals", "Umz\u00fcge", "\u041f\u0435\u0440\u0435\u0457\u0437\u0434\u0438"], "s1_p": ["Przew\u00f3z mebli i rzeczy osobistych \u2013 mieszkania, domy, biura.", "Moving furniture and personal belongings \u2013 flats, houses, offices.", "Transport von M\u00f6beln und pers\u00f6nlichen Gegenst\u00e4nden \u2013 Wohnungen, H\u00e4user, B\u00fcros.", "\u041f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f \u043c\u0435\u0431\u043b\u0456\u0432 \u0442\u0430 \u043e\u0441\u043e\u0431\u0438\u0441\u0442\u0438\u0445 \u0440\u0435\u0447\u0435\u0439 \u2013 \u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0438, \u0431\u0443\u0434\u0438\u043d\u043a\u0438, \u043e\u0444\u0456\u0441\u0438."], "s2_h": ["Transport ekspresowy", "Express transport", "Expresstransport", "\u0415\u043a\u0441\u043f\u0440\u0435\u0441-\u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f"], "s2_p": ["Pilne przesy\u0142ki i \u0142adunki dowo\u017cone bez zb\u0119dnych prze\u0142adunk\u00f3w.", "Urgent shipments and loads delivered without unnecessary reloading.", "Eilige Sendungen und Ladungen \u2013 ohne unn\u00f6tiges Umladen.", "\u0422\u0435\u0440\u043c\u0456\u043d\u043e\u0432\u0456 \u0432\u0456\u0434\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043d\u044f \u0442\u0430 \u0432\u0430\u043d\u0442\u0430\u0436\u0456 \u0431\u0435\u0437 \u0437\u0430\u0439\u0432\u0438\u0445 \u043f\u0435\u0440\u0435\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u044c."], "s3_h": ["Transport krajowy", "Domestic transport", "Transport in Polen", "\u041f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f \u043f\u043e \u041f\u043e\u043b\u044c\u0449\u0456"], "s3_p": ["Przewozy na terenie ca\u0142ej Polski busami do 3,5 t.", "Transport throughout Poland by vans up to 3.5 t.", "Transporte in ganz Polen mit Transportern bis 3,5 t.", "\u041f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f \u043f\u043e \u0432\u0441\u0456\u0439 \u041f\u043e\u043b\u044c\u0449\u0456 \u0431\u0443\u0441\u0430\u043c\u0438 \u0434\u043e 3,5 \u0442."], "s4_h": ["Transport w UE", "EU transport", "Transport in der EU", "\u041f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f \u0432 \u0404\u0421"], "s4_p": ["Holandia, Belgia, Niemcy, Luksemburg, Dania, Austria, Czechy, W\u0142ochy.", "Netherlands, Belgium, Germany, Luxembourg, Denmark, Austria, Czech Republic, Italy.", "Niederlande, Belgien, Deutschland, Luxemburg, D\u00e4nemark, \u00d6sterreich, Tschechien, Italien.", "\u041d\u0456\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0438, \u0411\u0435\u043b\u044c\u0433\u0456\u044f, \u041d\u0456\u043c\u0435\u0447\u0447\u0438\u043d\u0430, \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433, \u0414\u0430\u043d\u0456\u044f, \u0410\u0432\u0441\u0442\u0440\u0456\u044f, \u0427\u0435\u0445\u0456\u044f, \u0406\u0442\u0430\u043b\u0456\u044f."], "why_k": ["Bezpiecze\u0144stwo i dost\u0119pno\u015b\u0107", "Safety and availability", "Sicherheit und Erreichbarkeit", "\u0411\u0435\u0437\u043f\u0435\u043a\u0430 \u0442\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0456\u0441\u0442\u044c"], "why_h": ["Dlaczego warto z nami", "Why choose us", "Warum mit uns", "\u0427\u043e\u043c\u0443 \u0432\u0430\u0440\u0442\u043e \u043e\u0431\u0440\u0430\u0442\u0438 \u043d\u0430\u0441"], "w1_h": ["Licencja mi\u0119dzynarodowa", "International licence", "Internationale Lizenz", "\u041c\u0456\u0436\u043d\u0430\u0440\u043e\u0434\u043d\u0430 \u043b\u0456\u0446\u0435\u043d\u0437\u0456\u044f"], "w1_p": ["Firma posiada licencj\u0119 na mi\u0119dzynarodowy transport drogowy.", "The company holds a licence for international road transport.", "Das Unternehmen besitzt eine Lizenz f\u00fcr den internationalen Stra\u00dfentransport.", "\u041a\u043e\u043c\u043f\u0430\u043d\u0456\u044f \u043c\u0430\u0454 \u043b\u0456\u0446\u0435\u043d\u0437\u0456\u044e \u043d\u0430 \u043c\u0456\u0436\u043d\u0430\u0440\u043e\u0434\u043d\u0456 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044c\u043d\u0456 \u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f."], "w2_h": ["Ubezpieczenie OCP", "Carrier liability insurance", "Frachtf\u00fchrerhaftpflicht", "\u0421\u0442\u0440\u0430\u0445\u0443\u0432\u0430\u043d\u043d\u044f OCP"], "w2_p": ["Ubezpieczenie OC przewo\u017anika na kwot\u0119:", "Carrier's liability insurance (OCP) up to:", "Haftpflichtversicherung des Frachtf\u00fchrers (OCP) \u00fcber:", "\u0421\u0442\u0440\u0430\u0445\u0443\u0432\u0430\u043d\u043d\u044f \u0432\u0456\u0434\u043f\u043e\u0432\u0456\u0434\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0456 \u043f\u0435\u0440\u0435\u0432\u0456\u0437\u043d\u0438\u043a\u0430 (OCP) \u043d\u0430 \u0441\u0443\u043c\u0443:"], "w3_h": ["Tachografy", "Tachographs", "Tachographen", "\u0422\u0430\u0445\u043e\u0433\u0440\u0430\u0444\u0438"], "w3_p": ["Nasze auta posiadaj\u0105 tachografy.", "Our vehicles are equipped with tachographs.", "Unsere Fahrzeuge sind mit Tachographen ausgestattet.", "\u041d\u0430\u0448\u0456 \u0430\u0432\u0442\u043e \u043e\u0431\u043b\u0430\u0434\u043d\u0430\u043d\u0456 \u0442\u0430\u0445\u043e\u0433\u0440\u0430\u0444\u0430\u043c\u0438."], "w4_h": ["Pracujemy 24/7", "Available 24/7", "Rund um die Uhr", "\u041f\u0440\u0430\u0446\u044e\u0454\u043c\u043e 24/7"], "w4_p": ["Jeste\u015bmy do dyspozycji 24 godziny na dob\u0119, 7 dni w tygodniu.", "We are available 24 hours a day, 7 days a week.", "Wir sind 24 Stunden am Tag, 7 Tage die Woche f\u00fcr Sie da.", "\u041c\u0438 \u043d\u0430 \u0437\u0432'\u044f\u0437\u043a\u0443 24 \u0433\u043e\u0434\u0438\u043d\u0438 \u043d\u0430 \u0434\u043e\u0431\u0443, 7 \u0434\u043d\u0456\u0432 \u043d\u0430 \u0442\u0438\u0436\u0434\u0435\u043d\u044c."], "rt_k": ["Trasy i kraje", "Routes and countries", "Routen und L\u00e4nder", "\u041c\u0430\u0440\u0448\u0440\u0443\u0442\u0438 \u0442\u0430 \u043a\u0440\u0430\u0457\u043d\u0438"], "rt_h": ["Gdzie je\u017adzimy", "Where we drive", "Wohin wir fahren", "\u041a\u0443\u0434\u0438 \u043c\u0438 \u0457\u0437\u0434\u0438\u043c\u043e"], "c_pl": ["Polska", "Poland", "Polen", "\u041f\u043e\u043b\u044c\u0449\u0430"], "c_pl_s": ["transport krajowy", "domestic transport", "Inlandstransport", "\u043f\u043e \u0432\u0441\u0456\u0439 \u043a\u0440\u0430\u0457\u043d\u0456"], "c_nl": ["Holandia", "Netherlands", "Niederlande", "\u041d\u0456\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0438"], "c_nl_s": ["Niderlandy", "Holland", "Holland", "\u0413\u043e\u043b\u043b\u0430\u043d\u0434\u0456\u044f"], "c_be": ["Belgia", "Belgium", "Belgien", "\u0411\u0435\u043b\u044c\u0433\u0456\u044f"], "c_de": ["Niemcy", "Germany", "Deutschland", "\u041d\u0456\u043c\u0435\u0447\u0447\u0438\u043d\u0430"], "c_lu": ["Luksemburg", "Luxembourg", "Luxemburg", "\u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433"], "c_dk": ["Dania", "Denmark", "D\u00e4nemark", "\u0414\u0430\u043d\u0456\u044f"], "c_at": ["Austria", "Austria", "\u00d6sterreich", "\u0410\u0432\u0441\u0442\u0440\u0456\u044f"], "c_cz": ["Czechy", "Czech Republic", "Tschechien", "\u0427\u0435\u0445\u0456\u044f"], "c_it": ["W\u0142ochy", "Italy", "Italien", "\u0406\u0442\u0430\u043b\u0456\u044f"], "rt_note": ["Trasa spoza listy? Zadzwo\u0144 lub wy\u015blij zapytanie \u2013 sprawdzimy mo\u017cliwo\u015b\u0107 przewozu.", "Route not on the list? Call or send an enquiry \u2013 we will check if we can do it.", "Ihre Route ist nicht dabei? Rufen Sie an oder senden Sie eine Anfrage \u2013 wir pr\u00fcfen die M\u00f6glichkeit.", "\u041c\u0430\u0440\u0448\u0440\u0443\u0442\u0443 \u043d\u0435\u043c\u0430\u0454 \u0443 \u0441\u043f\u0438\u0441\u043a\u0443? \u0417\u0430\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443\u0439\u0442\u0435 \u0430\u0431\u043e \u043d\u0430\u0434\u0456\u0448\u043b\u0456\u0442\u044c \u0437\u0430\u043f\u0438\u0442 \u2013 \u043c\u0438 \u043f\u0435\u0440\u0435\u0432\u0456\u0440\u0438\u043c\u043e \u043c\u043e\u0436\u043b\u0438\u0432\u0456\u0441\u0442\u044c \u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f."], "fl_k": ["Flota", "Fleet", "Flotte", "\u0410\u0432\u0442\u043e\u043f\u0430\u0440\u043a"], "fl_h": ["Busy do 3,5 t z plandek\u0105", "Curtain-side vans up to 3.5 t", "Planen-Transporter bis 3,5 t", "\u0411\u0443\u0441\u0438 \u0434\u043e 3,5 \u0442 \u0437 \u0442\u0435\u043d\u0442\u043e\u043c"], "fl_1": ["Pojazdy o dopuszczalnej masie ca\u0142kowitej do 3,5 t", "Vehicles with a gross weight of up to 3.5 t", "Fahrzeuge mit zul\u00e4ssigem Gesamtgewicht bis 3,5 t", "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u0456 \u0437\u0430\u0441\u043e\u0431\u0438 \u0437 \u043f\u043e\u0432\u043d\u043e\u044e \u043c\u0430\u0441\u043e\u044e \u0434\u043e 3,5 \u0442"], "fl_2": ["Zabudowa z plandek\u0105", "Tarpaulin body", "Planenaufbau", "\u041a\u0443\u0437\u043e\u0432 \u0437 \u0442\u0435\u043d\u0442\u043e\u043c"], "fl_3": ["Auta mieszcz\u0105ce 10 lub 8 europalet", "Vehicles for 10 or 8 euro pallets", "Fahrzeuge f\u00fcr 10 oder 8 Europaletten", "\u0410\u0432\u0442\u043e \u043d\u0430 10 \u0430\u0431\u043e 8 \u0454\u0432\u0440\u043e\u043f\u0430\u043b\u0435\u0442"], "fl_4": ["Auta wyposa\u017cone w tachografy", "Vehicles equipped with tachographs", "Fahrzeuge mit Tachographen", "\u0410\u0432\u0442\u043e \u043e\u0431\u043b\u0430\u0434\u043d\u0430\u043d\u0456 \u0442\u0430\u0445\u043e\u0433\u0440\u0430\u0444\u0430\u043c\u0438"], "pal_u": ["europalet", "euro pallets", "Europaletten", "\u0454\u0432\u0440\u043e\u043f\u0430\u043b\u0435\u0442"], "who_k": ["Dla kogo", "For whom", "F\u00fcr wen", "\u0414\u043b\u044f \u043a\u043e\u0433\u043e"], "who_h": ["Pracujemy dla", "We work for", "Wir arbeiten f\u00fcr", "\u041c\u0438 \u043f\u0440\u0430\u0446\u044e\u0454\u043c\u043e \u0434\u043b\u044f"], "who1_h": ["Spedycji", "Forwarders", "Speditionen", "\u0415\u043a\u0441\u043f\u0435\u0434\u0438\u0442\u043e\u0440\u0456\u0432"], "who1_p": ["\u0141adunki do 3,5 t na trasach krajowych i w Unii Europejskiej.", "Loads up to 3.5 t on domestic routes and within the European Union.", "Ladungen bis 3,5 t im Inland und in der Europ\u00e4ischen Union.", "\u0412\u0430\u043d\u0442\u0430\u0436\u0456 \u0434\u043e 3,5 \u0442 \u043f\u043e \u041f\u043e\u043b\u044c\u0449\u0456 \u0442\u0430 \u0432 \u0404\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u044c\u043a\u043e\u043c\u0443 \u0421\u043e\u044e\u0437\u0456."], "who2_h": ["Firm", "Companies", "Unternehmen", "\u041a\u043e\u043c\u043f\u0430\u043d\u0456\u0439"], "who2_p": ["Transport towar\u00f3w i pilne dostawy ekspresowe.", "Goods transport and urgent express deliveries.", "Warentransport und eilige Expresslieferungen.", "\u041f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f \u0442\u043e\u0432\u0430\u0440\u0456\u0432 \u0456 \u0442\u0435\u0440\u043c\u0456\u043d\u043e\u0432\u0456 \u0435\u043a\u0441\u043f\u0440\u0435\u0441-\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438."], "who3_h": ["Os\u00f3b prywatnych", "Private customers", "Privatkunden", "\u041f\u0440\u0438\u0432\u0430\u0442\u043d\u0438\u0445 \u043e\u0441\u0456\u0431"], "who3_p": ["Przeprowadzki oraz przew\u00f3z rzeczy w kraju i za granic\u0105.", "Removals and transport of belongings in Poland and abroad.", "Umz\u00fcge und Transport von Gegenst\u00e4nden im In- und Ausland.", "\u041f\u0435\u0440\u0435\u0457\u0437\u0434\u0438 \u0442\u0430 \u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f \u0440\u0435\u0447\u0435\u0439 \u043f\u043e \u041f\u043e\u043b\u044c\u0449\u0456 \u0442\u0430 \u0437\u0430 \u043a\u043e\u0440\u0434\u043e\u043d."], "q_k": ["Wycena", "Quote", "Angebot", "\u0412\u0430\u0440\u0442\u0456\u0441\u0442\u044c"], "q_h": ["Zapytaj o cen\u0119 przewozu", "Ask for a transport price", "Preis f\u00fcr Ihren Transport anfragen", "\u0414\u0456\u0437\u043d\u0430\u0439\u0442\u0435\u0441\u044f \u0432\u0430\u0440\u0442\u0456\u0441\u0442\u044c \u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f"], "q_p": ["Wype\u0142nij formularz \u2013 po klikni\u0119ciu otworzy si\u0119 Tw\u00f3j program pocztowy z gotow\u0105 wiadomo\u015bci\u0105. Najszybciej: zadzwo\u0144 lub napisz na WhatsApp.", "Fill in the form \u2013 clicking the button opens your e-mail program with a ready message. Fastest: call us or write on WhatsApp.", "F\u00fcllen Sie das Formular aus \u2013 nach dem Klick \u00f6ffnet sich Ihr E-Mail-Programm mit einer fertigen Nachricht. Am schnellsten: anrufen oder per WhatsApp schreiben.", "\u0417\u0430\u043f\u043e\u0432\u043d\u0456\u0442\u044c \u0444\u043e\u0440\u043c\u0443 \u2013 \u043f\u0456\u0441\u043b\u044f \u043d\u0430\u0442\u0438\u0441\u043a\u0430\u043d\u043d\u044f \u0432\u0456\u0434\u043a\u0440\u0438\u0454\u0442\u044c\u0441\u044f \u0432\u0430\u0448\u0430 \u043f\u043e\u0448\u0442\u043e\u0432\u0430 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u0430 \u0437 \u0433\u043e\u0442\u043e\u0432\u0438\u043c \u043b\u0438\u0441\u0442\u043e\u043c. \u041d\u0430\u0439\u0448\u0432\u0438\u0434\u0448\u0435: \u0437\u0430\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443\u0439\u0442\u0435 \u0430\u0431\u043e \u043d\u0430\u043f\u0438\u0448\u0456\u0442\u044c \u0443 WhatsApp."], "cb_tel": ["Telefon", "Phone", "Telefon", "\u0422\u0435\u043b\u0435\u0444\u043e\u043d"], "cb_mail": ["E-mail", "E-mail", "E-Mail", "\u0415\u043b. \u043f\u043e\u0448\u0442\u0430"], "cb_addr": ["Adres", "Address", "Adresse", "\u0410\u0434\u0440\u0435\u0441\u0430"], "cb_hours": ["Godziny pracy", "Working hours", "Arbeitszeiten", "\u0413\u043e\u0434\u0438\u043d\u0438 \u0440\u043e\u0431\u043e\u0442\u0438"], "cb_hours_v": ["24/7 \u2013 ca\u0142\u0105 dob\u0119, 7 dni w tygodniu", "24/7 \u2013 around the clock, 7 days a week", "24/7 \u2013 rund um die Uhr, 7 Tage die Woche", "24/7 \u2013 \u0446\u0456\u043b\u043e\u0434\u043e\u0431\u043e\u0432\u043e, 7 \u0434\u043d\u0456\u0432 \u043d\u0430 \u0442\u0438\u0436\u0434\u0435\u043d\u044c"], "f_from": ["Sk\u0105d", "From", "Von", "\u0417\u0432\u0456\u0434\u043a\u0438"], "f_to": ["Dok\u0105d", "To", "Nach", "\u041a\u0443\u0434\u0438"], "f_srv": ["Rodzaj us\u0142ugi", "Service", "Leistung", "\u0412\u0438\u0434 \u043f\u043e\u0441\u043b\u0443\u0433\u0438"], "o1": ["Transport krajowy", "Domestic transport", "Transport in Polen", "\u041f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f \u043f\u043e \u041f\u043e\u043b\u044c\u0449\u0456"], "o2": ["Transport mi\u0119dzynarodowy (UE)", "International transport (EU)", "Internationaler Transport (EU)", "\u041c\u0456\u0436\u043d\u0430\u0440\u043e\u0434\u043d\u0435 \u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f (\u0404\u0421)"], "o3": ["Transport ekspresowy", "Express transport", "Expresstransport", "\u0415\u043a\u0441\u043f\u0440\u0435\u0441-\u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f"], "o4": ["Przeprowadzka", "Removal", "Umzug", "\u041f\u0435\u0440\u0435\u0457\u0437\u0434"], "f_date": ["Termin", "Date", "Termin", "\u0414\u0430\u0442\u0430"], "f_load": ["\u0141adunek (co, ile palet, waga)", "Load (what, how many pallets, weight)", "Ladung (was, wie viele Paletten, Gewicht)", "\u0412\u0430\u043d\u0442\u0430\u0436 (\u0449\u043e, \u0441\u043a\u0456\u043b\u044c\u043a\u0438 \u043f\u0430\u043b\u0435\u0442, \u0432\u0430\u0433\u0430)"], "f_who": ["Imi\u0119 / firma", "Name / company", "Name / Firma", "\u0406\u043c'\u044f / \u043a\u043e\u043c\u043f\u0430\u043d\u0456\u044f"], "f_tel": ["Telefon", "Phone", "Telefon", "\u0422\u0435\u043b\u0435\u0444\u043e\u043d"], "f_btn": ["Wy\u015blij zapytanie o wycen\u0119", "Send quote request", "Anfrage senden", "\u041d\u0430\u0434\u0456\u0441\u043b\u0430\u0442\u0438 \u0437\u0430\u043f\u0438\u0442"], "f_small": ["Formularz nie zapisuje danych na stronie \u2013 przygotowuje wiadomo\u015b\u0107 e-mail w Twoim programie pocztowym.", "The form does not store any data on the website \u2013 it prepares an e-mail in your e-mail program.", "Das Formular speichert keine Daten auf der Website \u2013 es bereitet eine E-Mail in Ihrem E-Mail-Programm vor.", "\u0424\u043e\u0440\u043c\u0430 \u043d\u0435 \u0437\u0431\u0435\u0440\u0456\u0433\u0430\u0454 \u0434\u0430\u043d\u0438\u0445 \u043d\u0430 \u0441\u0430\u0439\u0442\u0456 \u2013 \u0432\u043e\u043d\u0430 \u0433\u043e\u0442\u0443\u0454 \u043b\u0438\u0441\u0442 \u0443 \u0432\u0430\u0448\u0456\u0439 \u043f\u043e\u0448\u0442\u043e\u0432\u0456\u0439 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u0456."], "ft_nip": ["NIP", "Tax ID (NIP)", "Steuernummer (NIP)", "\u041f\u043e\u0434\u0430\u0442\u043a\u043e\u0432\u0438\u0439 \u043d\u043e\u043c\u0435\u0440 (NIP)"], "ft_hours": ["Pracujemy 24/7", "Available 24/7", "Erreichbar 24/7", "\u041f\u0440\u0430\u0446\u044e\u0454\u043c\u043e 24/7"], "fab": ["&#9742; Zadzwo\u0144 teraz", "&#9742; Call now", "&#9742; Jetzt anrufen", "&#9742; \u041f\u043e\u0434\u0437\u0432\u043e\u043d\u0438\u0442\u0438"]};
+var PH={"ph_from": ["np. Pozna\u0144", "e.g. Pozna\u0144", "z. B. Pozna\u0144", "\u043d\u0430\u043f\u0440. \u041f\u043e\u0437\u043d\u0430\u043d\u044c"], "ph_to": ["np. Rotterdam", "e.g. Rotterdam", "z. B. Rotterdam", "\u043d\u0430\u043f\u0440. \u0420\u043e\u0442\u0442\u0435\u0440\u0434\u0430\u043c"], "ph_load": ["np. 6 europalet, ok. 900 kg", "e.g. 6 euro pallets, approx. 900 kg", "z. B. 6 Europaletten, ca. 900 kg", "\u043d\u0430\u043f\u0440. 6 \u0454\u0432\u0440\u043e\u043f\u0430\u043b\u0435\u0442, \u0431\u043b. 900 \u043a\u0433"]};
+var M=[{"hi": "Dzie\u0144 dobry,", "req": "prosz\u0119 o wycen\u0119 przewozu.", "from": "Sk\u0105d", "to": "Dok\u0105d", "srv": "Us\u0142uga", "date": "Termin", "load": "\u0141adunek", "who": "Imi\u0119 / firma", "tel": "Telefon", "subj": "Zapytanie o wycen\u0119"}, {"hi": "Hello,", "req": "I would like a quote for a transport.", "from": "From", "to": "To", "srv": "Service", "date": "Date", "load": "Load", "who": "Name / company", "tel": "Phone", "subj": "Quote request"}, {"hi": "Guten Tag,", "req": "ich bitte um ein Angebot f\u00fcr einen Transport.", "from": "Von", "to": "Nach", "srv": "Leistung", "date": "Termin", "load": "Ladung", "who": "Name / Firma", "tel": "Telefon", "subj": "Angebotsanfrage"}, {"hi": "\u0414\u043e\u0431\u0440\u0438\u0439 \u0434\u0435\u043d\u044c,", "req": "\u043f\u0440\u043e\u0448\u0443 \u0440\u043e\u0437\u0440\u0430\u0445\u0443\u0432\u0430\u0442\u0438 \u0432\u0430\u0440\u0442\u0456\u0441\u0442\u044c \u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f.", "from": "\u0417\u0432\u0456\u0434\u043a\u0438", "to": "\u041a\u0443\u0434\u0438", "srv": "\u041f\u043e\u0441\u043b\u0443\u0433\u0430", "date": "\u0414\u0430\u0442\u0430", "load": "\u0412\u0430\u043d\u0442\u0430\u0436", "who": "\u0406\u043c'\u044f / \u043a\u043e\u043c\u043f\u0430\u043d\u0456\u044f", "tel": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d", "subj": "\u0417\u0430\u043f\u0438\u0442 \u043d\u0430 \u0440\u043e\u0437\u0440\u0430\u0445\u0443\u043d\u043e\u043a \u0432\u0430\u0440\u0442\u043e\u0441\u0442\u0456"}];
+var TT=["Poland Logistic \u2013 Anastasiia Biruk | Transport busami do 3,5 t", "Poland Logistic \u2013 Anastasiia Biruk | Transport by vans up to 3.5 t", "Poland Logistic \u2013 Anastasiia Biruk | Transporte bis 3,5 t", "Poland Logistic \u2013 Anastasiia Biruk | \u041f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f \u0431\u0443\u0441\u0430\u043c\u0438 \u0434\u043e 3,5 \u0442"];
+var L=["pl", "en", "de", "uk"],cur=0;
+function setLang(code){var i=L.indexOf(code);if(i<0)i=0;cur=i;
+  document.documentElement.lang=L[i];document.title=TT[i];
+  document.querySelectorAll('[data-t]').forEach(function(el){var v=T[el.getAttribute('data-t')];if(v)el.innerHTML=v[i];});
+  document.querySelectorAll('[data-tp]').forEach(function(el){var v=PH[el.getAttribute('data-tp')];if(v)el.placeholder=v[i];});
+  document.querySelectorAll('.langs button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-lang')===L[i]);});
+}
+document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.getAttribute('data-lang'));try{history.replaceState(null,'','#'+L[cur]);}catch(e){}});});
+(function(){var h=(location.hash||'').slice(1);if(L.indexOf(h)>0)setLang(h);})();
+var fab=document.querySelector('.fab');addEventListener('scroll',function(){fab.classList.toggle('show',scrollY>500)});
+document.getElementById('qf').addEventListener('submit',function(e){
+  e.preventDefault();
+  var f=this,m=M[cur],v=function(n){return (f.elements[n].value||'').trim()||'-'};
+  var body=m.hi+'\n'+m.req+'\n\n'+m.from+': '+v('skad')+'\n'+m.to+': '+v('dokad')+'\n'+m.srv+': '+v('usluga')+'\n'+m.date+': '+v('termin')+'\n'+m.load+': '+v('ladunek')+'\n\n'+m.who+': '+v('kto')+'\n'+m.tel+': '+v('tel');
+  location.href='mailto:biuro@poland-logistic.pl?subject='+encodeURIComponent(m.subj+': '+v('skad')+' \u2192 '+v('dokad'))+'&body='+encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
